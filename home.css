@@ -1,0 +1,378 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    outline: none;
+    font-family: "Armin Grotesk", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+nav{
+    width: 100%;
+    height: 13vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:sticky;
+    top: 0px;
+}
+
+nav .logo{
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+nav .logo img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+nav .logo a{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 10px;
+    text-decoration: none;
+    color: rgb(68,68,68);
+}
+
+nav .menu{
+    margin-right: 30px;
+}
+
+nav .menu *{
+    padding: 12px 25px;
+}
+
+nav .menu a{
+    text-decoration: none;
+    color: rgb(68,68,68);
+}
+
+nav .menu a:hover{
+    color: #fd6b52;
+}
+
+nav .menu button{
+    margin-right: 10px;
+    border: 1px solid black;
+    border-radius: 30px;
+    background: transparent;
+}
+
+nav .menu button:hover{
+    border: 1px solid #ff7b00;
+    color: white;
+    background-color: #ff7b00;
+}
+
+nav .menu button a:hover{
+    color: white;
+}
+
+.bnr{width: 100%;
+    height: 100vh;
+    background: url(https://prod.assets.thankfulregistry.com/assets/root/hero-a-desktop-2cf4fe74a82fa99f143d48b89ccaa2832224677071a664651a7754bbf36af44d.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bnr .cnt{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    gap: 20px;
+}
+
+.bnr h1{
+    font-size: 60px;
+}
+
+.bnr p{
+    font-size: 25px;
+}
+
+.bnr button{
+    padding: 12px 100px;
+    border-radius: 20px;
+    background-color: rgb(255, 123, 0);
+    color: white;
+    border: none;
+    margin-top: 40px;
+}
+
+.box1{
+    width: 100%;
+    height: 120vh;
+    background-color: rgb(255,246,245);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box1 h1{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(68,68,68);
+}
+
+.box1 .cnt1{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box1 .cnt1 img{
+    width: 50%;
+    height: 80vh;
+}
+
+.box1 .cnt2{
+    width: 40%;
+}
+
+.box1 .cnt2 #box{
+    border: 0px solid black;
+    padding: 25px 10px;
+    margin-bottom: 6%;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.box1 .cnt2 #box p{
+    color: rgb(68,68,68);
+}
+
+.box2{
+    background-color: white;
+    height: 140vh;
+}
+
+.box2 h1{
+    font-size: 30px;
+}
+
+.box1 .cnt1 .pto{
+    width: 50%;
+    height: 80vh;
+    text-align: center;
+}
+
+.box1 .cnt1 .pto img{
+    width: 100%;
+    height: 80vh;
+    margin-bottom: 30px;
+}
+
+.box1 .cnt1 .pto button{
+    padding: 10px 25px;
+    font-size: 12px;
+    background:transparent;
+    color: rgb(68,68,68);
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+
+.box2 .cnt2 #box{
+    border: 1px solid skyblue;
+}
+
+.box3{
+    background-color: rgb(243,238,231);
+}
+
+.box3 h1{
+    font-size: 25px;
+}
+
+.box3 .cnt1 img{
+    width: 55%;
+    height: 70vh;
+}
+
+.bnr2{
+    width: 100%;
+    height: 100vh;
+    background: url(https://prod.assets.thankfulregistry.com/assets/root/green_bg1_rec-75699971b50a598a0a52edb66ed4f2ad4773ff2925f4e3d5712acf8b9d31a3a1.png);
+}
+
+.bnr2 .cnt{
+    width: 60%;
+    margin: auto;
+    padding-top: 30vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.bnr2 .cnt p{
+    font-size: 45px;
+}
+
+.bnr2 .cnt span{
+    font-size: 20px;
+    margin-top: 5vh;
+}
+
+.bnr2 .cnt .icon i{
+    margin-top: 15vh;
+    margin-right: 15px;
+    font-size: 50px;
+}
+
+.box5{
+    width: 100%;
+    height: 20vh;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 25px;
+}
+
+.box5 p{
+    padding: 0px 50px;
+    color: rgb(68,68,68);
+}
+
+.box4{
+    width: 100%;
+    height: 180vh;
+    color: rgb(68,68,68);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box4 .cnt{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.box4 .cnt .acc, .box4 .cnt .acc1{
+    background-color: rgb(229,240,246);
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding: 10px;
+}
+
+.box4 .cnt h3{
+    font-size: 17px;
+}
+
+.box4 .cnt p{
+    font-size: 16px;
+}
+
+.bnr3{
+    width: 100%;
+    height: 100vh;
+    background:url(https://prod.assets.thankfulregistry.com/assets/root/image1_pc-8dc0d9e05e9b792f8d25017eec82aef8d1f1b603ef95a6e10d7f1dd501dc1145.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+.bnr3 h1{
+    padding-top: 8%;
+    font-size: 38px;
+    color: rgb(68,68,68);
+}
+
+.bnr3 button{
+    margin-top: 25px;
+    padding: 10px 80px;
+    border: none;
+    border-radius: 20px;
+    background-color: #fd6b52;
+    color: white;
+    font-weight: none;
+    font-size: 13px;
+}
+
+footer{
+    width: 100%;
+    background-color: rgb(68,68,68);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .cnt1{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 35px 40px;
+}
+footer .cnt1 .box-1{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    font-weight: bolder;
+}
+
+footer .cnt1 .box-2{
+    width: 30%;
+    display: flex;
+}
+
+footer .cnt1 .box-2 .b1,footer .cnt1 .box-2 .b2{
+    display: flex;
+    flex-direction: column;
+}
+
+footer .cnt1 .box-2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 8px 50px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+footer .cnt1 .box-2 a:hover{
+    color: #ff7b00;
+}
+
+footer .cnt1 .box-3{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .cnt1 .box-3 button{
+    padding: 10px 10px;
+    margin-bottom: 35px;
+    border-radius: 20px;
+    border: none;
+}
+
+footer .cnt1 .box-3 button:hover{
+    background-color: #ff7b00;
+    color: white;
+}
+
+footer .cnt1 .box-3 button #s:hover{
+    background-color: #ff7b00;
+}
+footer .cnt2{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+}
